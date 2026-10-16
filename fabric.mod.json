@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "susanoo",
+  "version": "2.1.0",
+  "name": "Susanoo",
+  "description": "Invoque un guerrier spectral geant autour de toi : 4 formes, une couleur par Mangekyo, jambes en forme parfaite, aura effrayante, attaques sur R, V, C et B.",
+  "license": "MIT",
+  "environment": "*",
+  "mixins": ["susanoo.mixins.json"],
+  "entrypoints": {
+    "main": ["com.susano.SusanooMod"],
+    "client": ["com.susano.client.SusanooClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [ { "tag": "susanoo:mangekyo" }, { "item": "minecraft:blue_dye" } ],
+  "result": { "item": "susanoo:mangekyo" }
+}
